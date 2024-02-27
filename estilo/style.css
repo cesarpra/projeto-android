@@ -12,12 +12,14 @@
     font-style: normal;
 }
 body{
+    width: 100%;
     background-color: #84E1AD;
     width: 100%;
     text-align: justify;
     padding: 10px;
 }
 header{
+    margin: auto;
     width: 100%;
     text-align: center;
     padding-top: 40px;
@@ -27,15 +29,15 @@ header{
     background-image: linear-gradient(to top, #1A5C38, #39CB79);
 }
 header >p{
-font-size: 1.2em;
-max-width: 600px;
-padding-left: 10px;
-padding-right: 10px;
-padding-bottom: 50px;
-margin: auto;
+    font-size: 1.2em;
+    max-width: 600px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 50px;
+    margin: auto;
 }
 nav{
-    width: 100%;
+    box-shadow: 3px black;
     background-color: #1A5C38;
     padding: 10px;
 }
@@ -53,13 +55,17 @@ nav >a:hover{
     background-color: #33aa699c;
 }
 main{
-text-align: justify;
-background-color: white;
-margin: auto;
-padding: 0px 10px;
-padding-top: 4px;
-min-width: 400px;
-max-width: 800px;
+    box-shadow: 0px 0px 8px 6px #0000002d;
+    text-align: justify;
+    background-color: white;
+    margin: auto;
+    padding: 0px 10px;
+    padding-top: 4px;
+    min-width: 350px;
+    max-width: 800px;
+}
+main > p > a{
+    max-width: 320;
 }
 main p{
     padding: 10px;
@@ -129,23 +135,26 @@ margin-bottom: 0px;
 border-radius: 0px 0px 10px 10px;
 }
 p#meio{
-background-color: #C5EBD6;
-padding: 10px;
-margin-top: 0px;
-margin-bottom: 0px;
-border-radius: 0px;
+    background-color: #C5EBD6;
+    padding: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-radius: 0px;
 }
 footer{
+    padding-top: 10px;
+    height: 20px;   
     font-size: .8em;
-text-align: center;
-color: white;
-background-color: #1A5C38;
+    text-align: center;
+    color: white;
+    background-color: #1A5C38;
+    text-align: center;
 }
 footer >a{
     color: white;
     text-decoration: none;
 }
 footer >a:hover{
-text-decoration: underline;
-color: rgba(112, 89, 245, 0.603);
+    text-decoration: underline;
+    color: rgba(112, 89, 245, 0.603);
 }
