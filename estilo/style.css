@@ -19,7 +19,7 @@ body{
 }
 header{
     margin: 0px;
-    width: 100%;
+    width: 100vw;
     text-align: center;
     padding-top: 40px;
     
@@ -36,15 +36,15 @@ header >p{
     margin: auto;
 }
 nav{
-    width: 100%;
+    width: 100vw;
     box-shadow: 3px black;
     background-color: #1A5C38;
-    padding: 10px;
+    padding: 8px 0px;
 }
 nav >a{
-    font-size: 1em;
+    font-size: 1.1em;
     padding: 5px 10px;
-    margin: 0px;
+    margin: 0px 3px;
     border-radius: 5px;
     display: inline-block;
     transition: 0.5s;
@@ -100,7 +100,7 @@ margin-top: 0px;
 margin-bottom: 0px;
 border-radius: 0px;
 }
-picture source{
+main picture {
     text-align: center;
 }
 div.video{
