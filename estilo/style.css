@@ -19,7 +19,7 @@ body{
 }
 header{
     margin: 0px;
-    width: 100vw;
+    width: 120vw;
     text-align: center;
     padding-top: 40px;
     
@@ -36,7 +36,7 @@ header >p{
     margin: auto;
 }
 nav{
-    width: 100vw;
+    width: 120vw;
     box-shadow: 3px black;
     background-color: #1A5C38;
     padding: 8px 0px;
